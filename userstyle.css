@@ -1,0 +1,28 @@
+/* A selection of tweaks, much of it stolen from https://github.com/tessus */
+/* https://www.w3schools.com/colors/colors_hexadecimal.asp */
+
+/* ... rendered MD, including background */
+body {
+    font-size: 17px;
+    font-family: "Calibri";
+    /*color: #EEF0EA;*/
+    background-color: #181A1D;
+}
+
+.cm-header-1, .cm-header-2, .cm-header.3, -.cm-header-4 {
+  color: #ebdbb2;
+}
+
+#joplin-container-content h1 {
+    font-size: 1.75em;
+    color: #42b883
+  }
+
+#joplin-container-content h2 {
+    font-size: 1.5em;
+    color: #3baea0
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 20;
+}

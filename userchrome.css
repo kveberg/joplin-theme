@@ -1,0 +1,74 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+
+/* Tag at the bottom of the screen */
+.tag-list {
+    background-color: #181A1D !important;
+}
+
+/* Resize field between sidebar and notebar */
+.rli-sideBar {
+    background-color: #181A1D !important;
+}
+
+/* An empty notelist */
+.cLdGCO {
+    background-color: #181A1D !important;
+}
+
+/* Search field above notelist */
+.juUmC {
+    background-color: #181A1D !important;
+}
+
+/* Note list */
+.note-list {
+    background-color: #181A1D !important;
+}
+
+/* Resize field between sidebar and notebar */
+.rli-noteList {
+    background-color: #181A1D !important;
+}
+
+/* Resize field surrounding the editor*/
+.rli-editor {
+    background-color: #181A1D !important;
+}
+
+/* Markdown code view */
+.CodeMirror-line {
+    background-color: #181A1D !important;
+}
+
+/* Markdown code view */
+.CodeMirror * {
+    background-color: #181A1D !important;
+}
+
+/* Rendered markdown view */
+.rendered-md {
+    background-color: #181A1D !important;
+}
+
+/* Editor toolbar */
+.editor-toolbar {
+    background-color: #181A1D !important;
+}
+
+/* Markdown viewer */
+.noteTextViewer {
+    background-color: #181A1D !important;
+}
+
+/* Note title area */
+.title-input {
+    background-color: #181A1D !important;
+}
+
+.tox * {
+    background-color: #181A1D !important;
+}
+
+.joplin-tinymce .tox .tox-toolbar_primary{
+    background-color: hsl(216, 76%, 47%) !important;
+}
