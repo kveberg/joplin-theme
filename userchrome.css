@@ -17,6 +17,8 @@
     --violet: #BB80B3;
     --grey: #545454;
   
+    --white-text: #e3e7d8;
+
     --darkest: #161616;
     --darker: #212121;
     --dark: #303030;
@@ -77,6 +79,7 @@
     border-radius: var(--scroll-radius) !important;
   }
   
+
   /*********************************************************************************
   * PANELS
   *********************************************************************************/
@@ -355,10 +358,12 @@
   
   /* A summary of existing classes can be found here: 
   https://discourse.joplinapp.org/t/share-your-css/1730/221 */
-  
-div.CodeMirror-lines* {
-    color: var(--red) !important;
-}
+
+
+  div.CodeMirror-lines * {
+    color: var(--white-text);
+  }
+
   .cm-s-material-darker.CodeMirror {
     background-color: var(--darker) !important;
     color: var(--light) !important;
@@ -370,8 +375,8 @@ div.CodeMirror-lines* {
   }
   
   .cm-header-2, .cm-header-3, .cm-header-4 {
-    color: var(--darker-yellow) !important;
-}
+    color: var(--darker-yellow) !important;  
+  }
 
   /* Italics/Emphasis, Bold, BoldItalics */
   .cm-em, .cm-strong, .cm-strong.cm-em {
@@ -421,7 +426,12 @@ div.CodeMirror-lines* {
     font-family: var(--font-mono) !important;
     font-size: 14px !important;
   }
-  
+
+  .cm-jn-code-block.CodeMirror-line {
+    background-color: rgba(0, 0, 0, 0.445) !important;
+    line-height: 1.4 !important;
+  }
+
   /* Horizontal Line */
   .cm-hr {
     color: var(--grey) !important;
