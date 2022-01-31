@@ -1,4 +1,4 @@
-# joplin-appearance-css
+# joplin-theme
 
 My adaptation of [stysebae's "joplin-vsc-material-theme"](https://github.com/stysebae/joplin-vsc-material-theme).
 
